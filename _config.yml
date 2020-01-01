@@ -16,3 +16,23 @@ tag_color: primary # danger, success, warning, primary, info, secondary
 accentColor: red # purple, green, etc.
 themeColor: red # purple, green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
+
+# Defaults
+defaults:
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "posts"
+      type: "posts"
+    values:
+      layout: "post"
