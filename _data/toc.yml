@@ -6,17 +6,17 @@
       children:
         - title: Features
           url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
+        - title: Dashboard
+          url: "docs/getting-started#features"
+    - title: "Projects"
+      url: "docs/projects"
       children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
+        - title: Nautilus
+          url: "docs/extras/nautilus"
+        - title: Crusader
+          url: "docs/extras/crusader"
+        - title: Firestorm
+          url: "docs/extras/firestorm"
     - title: "About"
       url: "about"
     - title: "News"
