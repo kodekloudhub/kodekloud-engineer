@@ -7,7 +7,17 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-  
+
+# Social (First three Required)
+repo: "https://github.com/kodekloudhub/kodekloud-engineer"
+github_user: "kodekloudhub"
+github_repo: "kodekloud-engineer"
+
+# Optional
+twitter: kodekloud1
+linkedin: kodekloud
+dockerhub: kodekloudhub
+
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
 
@@ -26,6 +36,9 @@ tag_color: primary # danger, success, warning, primary, info, secondary
 accentColor: red # purple, green, etc.
 themeColor: red # purple, green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
+
+permalink: /:year/:title/
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
