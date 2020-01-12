@@ -12,11 +12,11 @@
       url: "docs/projects"
       children:
         - title: Nautilus
-          url: "docs/extras/nautilus"
+          url: "docs/projects/nautilus"
         - title: Crusader
-          url: "docs/extras/crusader"
+          url: "docs/projects/crusader"
         - title: Firestorm
-          url: "docs/extras/firestorm"
+          url: "docs/projects/firestorm"
     - title: "About"
       url: "about"
     - title: "News"
