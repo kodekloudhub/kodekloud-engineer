@@ -13,8 +13,10 @@ Nautilus Application helps the Naval forces to make smart procurement decisions 
 5. Laser Guidance Systems
 
 ##### Application Architecture:
-Nautilus Deployment Architecture:
+
+Nautilus Deployment Architecture can be viewed here:
 https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true
+
 The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North American Region.
 
 **Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open source relational databases.
