@@ -35,5 +35,5 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 |stdb01          | 172.16.239.10 | stdb01.stratos.xfusioncorp.com |peter | Sp!dy |Nautilus DB Server
 |ststor01        |172.16.238.15  | ststor01.stratos.xfusioncorp.com |natasha | Bl@kW |Stork DC Storage Filer
 |stbkp01         | 172.16.238.16 | ststor01.stratos.xfusioncorp.com |clint |H@wk3y3  | Nautilus Backup Server 
-|jump_host       | Dynamic       | Jump Server to Access Stork DC
+|jump_host       | Dynamic       | jump_host.stratos.xfusioncorp.com || |Jump Server to Access Stork DC
  
