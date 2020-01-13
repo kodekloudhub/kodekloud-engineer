@@ -18,7 +18,7 @@ We will soon be adding a DevOps Track.
 
 ### Project Dashboard
 
-![dashboard](images/dashboard.png)
+![dashboard](_docs/images/dashboard.png)
 
 The dashboard gives a view of the tasks assigned to you. Click on the Go button next to the pending task to 
 perform the activity.
