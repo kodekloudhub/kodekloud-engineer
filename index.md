@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+---
+title: Getting Started
+tags: 
+ - kodekloud
+ - engineer
+description: Getting started with KodeKloud Engineer
+---
 
-You can use the [editor on GitHub](https://github.com/kodekloudhub/kodekloud-engineer/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Getting Started
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+KodeKloud Engineer is a FREE platform for IT Professionals to gain real hands-on experience working on trending IT 
+technologies. To start logon to [engineer.kodekloud.com](engineer.kodekloud.com)
 
-### Markdown
+Currently we have a SysAdmin track that will help you gain experience in Linux System Administration. 
+We will soon be adding a DevOps Track.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+### Project Dashboard
 
-# Header 1
-## Header 2
-### Header 3
+![dashboard](images/dashboard.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kodekloudhub/kodekloud-engineer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The dashboard gives a view of the tasks assigned to you. Click on the Go button next to the pending task to 
+perform the activity.
