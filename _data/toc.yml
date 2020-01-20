@@ -12,7 +12,7 @@
       url: "docs/projects"
       children:
         - title: Nautilus
-          url: "docs/projects/nautilus-2"
+          url: "docs/projects/nautilus"
         - title: Crusader
           url: "docs/projects/crusader"
         - title: Firestorm
