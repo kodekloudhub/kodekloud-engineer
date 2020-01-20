@@ -20,10 +20,7 @@ Nautilus Application helps the Naval forces to make smart procurement decisions 
 4. Nuclear Submarines
 5. Laser Guidance Systems
 
-
-
 ## Application Architecture:
-
 Nautilus Deployment Architecture can be viewed here:
 https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true
 
