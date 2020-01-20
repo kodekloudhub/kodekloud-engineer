@@ -25,19 +25,19 @@ Nautilus Deployment Architecture can be viewed [here](https://www.lucidchart.com
 
 The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North American Region.
 
-**Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open source relational databases.
+ - **Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open source relational databases.
 
-**Application Tier:** Makes use of a LAMP which is a stack of open-source software that can be used to create web applications. LAMP is an acronym that usually consists of the Linux OS, the Apache HTTP Server, a MySQL relational DBMS (like MariaDB), and PHP.
+ - **Application Tier:** Makes use of a LAMP which is a stack of open-source software that can be used to create web applications. LAMP is an acronym that usually consists of the Linux OS, the Apache HTTP Server, a MySQL relational DBMS (like MariaDB), and PHP.
 
-**Client Tier:** The application client which in this case is a web browser software that processes and displays HTML resources, issues HTTP requests for resources, and processes HTTP responses.
+ - **Client Tier:** The application client which in this case is a web browser software that processes and displays HTML resources, issues HTTP requests for resources, and processes HTTP responses.
 
-**Load Balancer:** Nginx is used for HTTP Load Balancing to distribute requests through multiple application servers.
+ - **Load Balancer:** Nginx is used for HTTP Load Balancing to distribute requests through multiple application servers.
 
 ## Shared Services:
-1. **Storage Filer:** A NAS (Network Attached Storage) filer is used to provide reliable and stable external storage for the application tier servers.
-2. **SFTP Server:** SFTP, which stands for SSH File Transfer Protocol is used to transfer data amongst two remote systems.
-3. **Backup Server:** A staging backup system used for short term archival.
-4. **Jump Server:** The intermediary host or an SSH gateway to a remote network hosting the Nautilus application.
+ - **Storage Filer:** A NAS (Network Attached Storage) filer is used to provide reliable and stable external storage for the application tier servers.
+ - **SFTP Server:** SFTP, which stands for SSH File Transfer Protocol is used to transfer data amongst two remote systems.
+ - **Backup Server:** A staging backup system used for short term archival.
+ - **Jump Server:** The intermediary host or an SSH gateway to a remote network hosting the Nautilus application.
 
 ## Infrastructure Details:
 
