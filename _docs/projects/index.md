@@ -9,7 +9,7 @@ tags:
 
 Currently there are 3 projects, of which only the first one is live.
 
- - [Nautilus](nautilus-2)
+ - [Nautilus](nautilus)
  - [Crusader](crusader)
  - [Firestorm](firestorm)
 
