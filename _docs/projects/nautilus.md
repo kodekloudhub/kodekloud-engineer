@@ -10,8 +10,8 @@ Syldavia
 # Project Nautilus
 
 ## OVERVIEW
-Project Nautilus is the Naval subdivision of the xFusionCorp Industries.
-Nautilus Application helps the Naval forces to make smart procurement decisions of their manned or unmanned maritime systems while ensuring that the operational requirements are met. It also aims to provide the best in class operational support, improving the safety and life extension of existing machines and reduction in the cost of ownership.
+Project Nautilus is run by the Naval subdivision within xFusionCorp Industries.
+The Nautilus Application helps the Naval forces to make smart procurement decisions on manned and unmanned maritime systems while ensuring that operational requirements are met. It aims to provide best in class operational support, improve the safety and life extension of existing machines, and reduce cost of ownership.
 
 ## Current Repertoire:
 1. Sonar Technology and Systems
