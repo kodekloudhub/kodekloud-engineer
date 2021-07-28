@@ -9,21 +9,21 @@ Syldavia
 
 # Project Nautilus
 
-## OVERVIEW
+## Overview
 Project Nautilus is the Naval subdivision of the xFusionCorp Industries.
-Nautilus Application helps the Naval forces to make smart procurement decisions of their manned or unmanned maritime systems while ensuring that the operational requirements are met. It also aims to provide the best in class operational support, improving the safety and life extension of existing machines and reduction in the cost of ownership.
+Nautilus Application helps the Naval forces to make smart procurement decisions of their manned or unmanned maritime systems while ensuring that the operational requirements are met. It also aims to provide the best-in-class operational support, improving the safety and life extension of existing machines and reducing the cost of ownership.
 
-## Current Repertoire:
+## Current Repertoire
 1. Sonar Technology and Systems
 2. LUSV - Large Unmanned Surface Vehicles
 3. Autonomous Unmanned Undersea Pods
 4. Nuclear Submarines
 5. Laser Guidance Systems
 
-## Application Architecture:
-Nautilus Deployment Architecture can be viewed [here](https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true)
+## Application Architecture
+Nautilus deployment architecture can be viewed [here](https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true)
 
-The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North American Region.
+The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North America Region.
 
  - **Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open source relational databases.
 
@@ -33,13 +33,13 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 
  - **Load Balancer:** Nginx is used for HTTP Load Balancing to distribute requests through multiple application servers.
 
-## Shared Services:
+## Shared Services
  - **Storage Filer:** A NAS (Network Attached Storage) filer is used to provide reliable and stable external storage for the application tier servers.
  - **SFTP Server:** SFTP, which stands for SSH File Transfer Protocol is used to transfer data amongst two remote systems.
  - **Backup Server:** A staging backup system used for short term archival.
  - **Jump Server:** The intermediary host or an SSH gateway to a remote network hosting the Nautilus application.
 
-## Infrastructure Details:
+## Infrastructure Details
 
 | **Server Name** | **IP**|**Hostname** | **User** |**Password**|**Purpose** |
 |:---            |:---    |:---      |:--          |:---        |:---
