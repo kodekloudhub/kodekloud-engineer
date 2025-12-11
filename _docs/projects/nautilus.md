@@ -13,17 +13,17 @@ Syldavia
 Project Nautilus is run by the Naval subdivision within xFusionCorp Industries.
 The Nautilus Application helps the Naval forces to make smart procurement decisions on manned and unmanned maritime systems while ensuring that operational requirements are met. It aims to provide best in class operational support, improve the safety and life extension of existing machines, and reduce cost of ownership.
 
-## Current Repertoire:
+## Current Repertoire
 1. Sonar Technology and Systems
 2. LUSV - Large Unmanned Surface Vehicles
 3. Autonomous Unmanned Undersea Pods
 4. Nuclear Submarines
 5. Laser Guidance Systems
 
-## Application Architecture:
-Nautilus Deployment Architecture can be viewed [here](https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true)
+## Application Architecture
+Nautilus deployment architecture can be viewed [here](https://www.lucidchart.com/documents/edit/58e22de2-c446-4b49-ae0f-db79a3318e97/0_0?shared=true)
 
-The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North American Region.
+The Nautilus is a three-tier application and is deployed in the Stratos Datacenter in the North America Region.
 
  - **Data Tier:** The Data tier is the layer that stores data with the retrieval storage and execution methods made by the application layer. We are making use of MariaDB which is one of the most popular open source relational databases.
 
@@ -33,13 +33,13 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 
  - **Load Balancer:** Nginx is used for HTTP Load Balancing to distribute requests through multiple application servers.
 
-## Shared Services:
+## Shared Services
  - **Storage Filer:** A NAS (Network Attached Storage) filer is used to provide reliable and stable external storage for the application tier servers.
  - **SFTP Server:** SFTP, which stands for SSH File Transfer Protocol is used to transfer data amongst two remote systems.
  - **Backup Server:** A staging backup system used for short term archival.
  - **Jump Server:** The intermediary host or an SSH gateway to a remote network hosting the Nautilus application.
 
-## Infrastructure Details:
+## Infrastructure Details
 
 | **Server Name** | **IP**|**Hostname** | **User** |**Password**|**Purpose** |
 |:---            |:---    |:---      |:--          |:---        |:---
@@ -48,7 +48,7 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 |stapp03         | 172.16.238.12 | stapp03.stratos.xfusioncorp.com | banner |BigGr33n|Nautilus App 3
 |stlb01          | 172.16.238.14 | stlb01.stratos.xfusioncorp.com  |loki |Mischi3f|Nautilus HTTP LBR
 |stdb01          | 172.16.239.10 | stdb01.stratos.xfusioncorp.com  |peter |Sp!dy|Nautilus DB Server
-|ststor01        |172.16.238.15  | ststor01.stratos.xfusioncorp.com|natasha |Bl@kW|Stork DC Storage Filer
+|ststor01        |172.16.238.15  | ststor01.stratos.xfusioncorp.com|natasha |Bl@kW| Nautilus Storage Server
 |stbkp01         | 172.16.238.16 | stbkp01.stratos.xfusioncorp.com |clint |H@wk3y3| Nautilus Backup Server
 |stmail01        | 172.16.238.17 | stmail01.stratos.xfusioncorp.com|groot |Gr00T123| Nautilus Mail Server
 |jump_host       | Dynamic       | jump_host.stratos.xfusioncorp.com |thor|mjolnir123|Jump Server to Access Stork DC

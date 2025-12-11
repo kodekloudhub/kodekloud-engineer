@@ -7,9 +7,7 @@ tags:
 
 # Projects
 
-Currently there are 3 projects, of which only the first one is live.
+Currently there is 1 live project.
 
  - [Nautilus](nautilus)
- - [Crusader](crusader)
- - [Firestorm](firestorm)
 

@@ -13,10 +13,6 @@
       children:
         - title: Nautilus
           url: "docs/projects/nautilus"
-        - title: Crusader
-          url: "docs/projects/crusader"
-        - title: Firestorm
-          url: "docs/projects/firestorm"
     - title: "About"
       url: "about"
     - title: "News"
