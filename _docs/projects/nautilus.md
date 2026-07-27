@@ -45,6 +45,7 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 |:---------------------------|:---------|:-------------|:---------|:-------------|:---------------------------------|
 | Application Server 1       | Dynamic  | stapp01      | tony     | Ir0nM@n      | Hosts Nautilus Application 1     |
 | Application Server 2       | Dynamic  | stapp02      | steve    | Am3ric@      | Hosts Nautilus Application 2     |
+| Application Server 2       | Dynamic  | stapp02      | anita    | Am3ric@      | Hosts Nautilus Application 2     |
 | Application Server 3       | Dynamic  | stapp03      | banner   | BigGr33n     | Hosts Nautilus Application 3     |
 | LoadBalancer Server        | Dynamic  | stlb01       | loki     | Mischi3f     | Distributes traffic for Nautilus HTTP |
 | Database Server            | Dynamic  | stdb01       | peter    | Sp!dy        | Hosts Nautilus Database          |
